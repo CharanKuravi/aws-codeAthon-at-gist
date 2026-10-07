@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AWS Codeathon 2K26 — GIST AWS Club</title>
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#ff8a1f">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header><div class="c">
+  <div class="logo"><img class="lg" alt="AWS" src="assets/aws-logo.png"><span>Codeathon 2K26</span></div>
+  <button class="menuBtn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+  <nav class="links" id="navLinks"><a href="#home">Home</a><a href="#about">About</a><a href="#rounds">Rounds</a><a href="#prizes">Prizes</a><a href="#rules">Rules</a><a class="cta" href="#register">Register</a></nav>
+</div></header>
+<div class="cdbar"><div class="c"><span class="cl" id="tLbl">Countdown</span>
+  <div class="ct"><div><b id="tD">0</b><small>days</small></div><div><b id="tH">00</b><small>hrs</small></div><div><b id="tM">00</b><small>min</small></div><div><b id="tS">00</b><small>sec</small></div></div></div></div>
+
+<div class="page on" id="p-home"><section class="hero"><div class="c">
+  <div class="lgp"><img alt="Amazon Web Services" src="assets/aws-logo.png"></div><br><div class="chip"><i></i>AWS Club · GIST &nbsp;|&nbsp; Registration open</div><div class="mark" aria-hidden="true">2K26</div>
+  <h1>AWS Codeathon <span class="or">2K26</span></h1>
+  <p class="tag">Learn, build and innovate on the cloud. A beginner-friendly quiz followed by a virtual build challenge, open to teams of one or two.</p>
+  <div class="btns"><a class="btn" href="#register">Register your team &rarr;</a><button class="btn ghost" id="shareTop">Share</button><a class="btn ghost wa" href="https://chat.whatsapp.com/Hdxu6akiIO99tCOosPYjkc" target="_blank" rel="noopener noreferrer">Get updates on WhatsApp</a></div>
+  <div class="facts">
+    <div class="fact"><small id="cLbl">Next milestone</small><b id="cv">—</b></div>
+    <div class="fact"><small>Round 1 · Quiz</small><b>09 Oct, 7:00 PM</b></div>
+    <div class="fact"><small>Round 2 · Submission</small><b>11 Oct, 6:30 PM</b></div>
+    <div class="fact"><small>Team size</small><b>1 – 2 members</b></div>
+  </div>
+</div></section>
+<section class="s" style="border-bottom:none"><div class="c">
+  <div class="eyebrow">Explore</div><h2>Everything you need to know</h2>
+  <div class="grid g2">
+    <a class="card go" href="#about"><h3>About &rarr;</h3><p>Why take part and what you gain.</p></a>
+    <a class="card go" href="#rounds"><h3>Rounds &rarr;</h3><p>Schedule, quiz format and the virtual codeathon.</p></a>
+    <a class="card go" href="#prizes"><h3>Prizes &rarr;</h3><p>What the top three teams receive.</p></a>
+    <a class="card go" href="#rules"><h3>Rules &rarr;</h3><p>Guidelines and answers to common questions.</p></a>
+  </div>
+</div></section></div>
+
+<section class="s page" id="p-about"><div class="c">
+  <div class="eyebrow">About</div>
+  <h2>Why take part</h2>
+  <p class="lead">No experience needed. It is a simple way to start learning cloud and earn something for it.</p>
+  <div class="grid g3">
+    <div class="card why"><div class="n">01</div><h3>Learn AWS basics</h3><p>The quiz is made for beginners and covers core AWS services.</p></div>
+    <div class="card why"><div class="n">02</div><h3>Build with your team</h3><p>Turn cloud ideas into a working solution in Round 2, from wherever you are.</p></div>
+    <div class="card why"><div class="n">03</div><h3>Win AWS merchandise</h3><p>The top three teams receive AWS goodies.</p></div>
+    <div class="card why"><div class="n">04</div><h3>Get a certificate</h3><p>Every participant receives a participation certificate.</p></div>
+  </div>
+  <div class="notes" id="quiznotes">
+    <div class="eyebrow">Quiz notes</div>
+    <h2>Short notes for the quiz</h2>
+    <p class="lead">Nine AWS basics, each with a real-life twin you already know. A quick read before Round 1.</p>
+    <div class="dlrow">
+      <a class="btn" id="dlBtn" href="https://drive.google.com/uc?export=download&amp;id=1W5PU3TB8pIsRstsqNiuICsalPcxnce_E" target="_blank" rel="noopener noreferrer">&#8681;&nbsp; Download cheat sheet (PDF)</a>
+      <button class="btn ghost" id="viewBtn" type="button" aria-expanded="false" aria-controls="pdfView">View online</button>
+      <span class="dlmeta">3 pages · 9 services · AWS-CHEAT-SHEET.pdf</span>
+      <span class="dlmsg" id="dlMsg" role="status"></span>
+    </div>
+    <div class="pdfview" id="pdfView" hidden>
+      <div class="pvbar"><span>Cheat sheet preview</span><a href="https://drive.google.com/file/d/1W5PU3TB8pIsRstsqNiuICsalPcxnce_E/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open in Google Drive &#8599;</a></div>
+      <iframe id="pdfFrame" title="AWS quiz cheat sheet (PDF)" data-src="https://drive.google.com/file/d/1W5PU3TB8pIsRstsqNiuICsalPcxnce_E/preview" loading="lazy" allow="autoplay"></iframe>
+      <p class="pvnote">Preview not showing? <a href="https://drive.google.com/file/d/1W5PU3TB8pIsRstsqNiuICsalPcxnce_E/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open it in Google Drive</a>.</p>
+    </div>
+    <div class="must" role="note"><div class="mi">i</div><div><b>Good to know:</b> definitions and analogies may vary. These notes are simplified, beginner-friendly explanations, and quiz questions can be worded differently or go deeper. Please <u>do in-depth research on each service listed here</u> &mdash; the official <a href="https://docs.aws.amazon.com/" target="_blank" rel="noopener">AWS documentation</a> is the best place to start.</div></div>
+    <div class="grid g3" style="margin-top:28px">
+    <div class="card svc"><div class="top"><div class="tile" style="background:#ED7100">EC2</div><div><h4>EC2</h4><div class="full">Elastic Compute Cloud</div></div></div>
+      <div class="tg">rent-a-computer, cloud edition</div><span class="like">like PUBG</span><p class="d">A computer you rent in the cloud instead of buying one. Switch it on, run anything, pay only while it's on.</p><p class="tw">The PUBG match runs on a powerful rented computer online, not on your phone. <b>That rented computer is EC2.</b></p></div>
+    <div class="card svc"><div class="top"><div class="tile" style="background:#7AA116">S3</div><div><h4>S3</h4><div class="full">Simple Storage Service</div></div></div>
+      <div class="tg">your giant online storage locker</div><span class="like">like Google Drive</span><p class="d">A giant online storage locker for your files. Upload once, grab it back anytime, from anywhere.</p><p class="tw">Teammates open files from one shared Drive folder. <b>S3 is that Drive, built for your app's files.</b></p></div>
+    <div class="card svc"><div class="top"><div class="tile" style="background:#8C4FFF">VPC</div><div><h4>VPC</h4><div class="full">Virtual Private Cloud</div></div></div>
+      <div class="tg">a private room at a very public party</div><span class="like">like an Incognito tab</span><p class="d">Your own private, fenced-off space inside the cloud. You decide exactly who and what is allowed in.</p><p class="tw">An Incognito tab is a private bubble for your session. <b>A VPC is a private bubble for your app.</b></p></div>
+    <div class="card svc"><div class="top"><div class="tile" style="background:#DD344C">IAM</div><div><h4>IAM</h4><div class="full">Identity &amp; Access Management</div></div></div>
+      <div class="tg">the guest list at the door</div><span class="like">like a permission letter</span><p class="d">The guard who checks who's allowed to do what. Nobody gets more access than they need.</p><p class="tw">No signed letter, no exit. <b>IAM decides who gets which letter, for which door.</b></p></div>
+    <div class="card svc"><div class="top"><div class="tile" style="background:#ED7100">&lambda;</div><div><h4>Lambda</h4><div class="full">AWS Lambda</div></div></div>
+      <div class="tg">a doorbell that only rings when pressed</div><span class="like">like a field trip</span><p class="d">Code that wakes up only when needed. Does one small job, then goes back to sleep.</p><p class="tw">A field trip happens only on trip day. <b>Lambda runs your code only when triggered, and you pay for that run.</b></p></div>
+    <div class="card svc"><div class="top"><div class="tile" style="background:#C925D1">RDS</div><div><h4>RDS</h4><div class="full">Relational Database Service</div></div></div>
+      <div class="tg">a notebook someone else maintains for you</div><span class="like">like lecture notes</span><p class="d">A shared notebook that holds your app's data. Someone else handles backups and upkeep.</p><p class="tw">Organised notes plus a spare copy. <b>RDS is an organised notebook for your data, backups included.</b></p></div>
+    <div class="card svc"><div class="top"><div class="tile" style="background:#E7157B">CW</div><div><h4>CloudWatch</h4><div class="full">Amazon CloudWatch</div></div></div>
+      <div class="tg">eyes (and a pulse check) on everything</div><span class="like">like a fitband</span><p class="d">A fitness tracker, but for your app. Watches its pulse and buzzes you if something's off.</p><p class="tw">A fitband buzzes when something looks wrong. <b>CloudWatch watches your app's numbers and alerts you.</b></p></div>
+    <div class="card svc"><div class="top"><div class="tile" style="background:#8C4FFF">53</div><div><h4>Route 53</h4><div class="full">Amazon Route 53</div></div></div>
+      <div class="tg">the signpost for your website</div><span class="like">like a bus driver</span><p class="d">The reception desk for your website. Points every visitor straight to the right place.</p><p class="tw">Tell the driver your stop and he takes the right route. <b>Route 53 sends myapp.com visitors to the right server.</b></p></div>
+    <div class="card svc"><div class="top"><div class="tile" style="background:#ED7100">AS</div><div><h4>Auto Scaling</h4><div class="full">EC2 Auto Scaling</div></div></div>
+      <div class="tg">extra hands appear exactly when needed</div><span class="like">like canteen puffs</span><p class="d">More help shows up the moment things get busy, and quietly leaves once it's quiet.</p><p class="tw">The canteen opens extra counters at the rush. <b>Auto Scaling adds servers when traffic jumps and removes them when it's quiet.</b></p></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="s soft page" id="p-rounds"><div class="c">
+  <div class="eyebrow">Schedule</div>
+  <h2>Two rounds, fully online</h2>
+  <p class="lead">Progress updates automatically as each date arrives.</p>
+  <ol class="tl" id="tl"></ol>
+  <div class="grid g2">
+    <div class="card round"><div class="no">ROUND 01</div><h3>Quiz</h3>
+      <p>Test what you know about core AWS services. Quick, fun and made for beginners.</p>
+      <ul><li>30 questions in total</li><li>20 questions on AWS</li><li>10 questions on Aptitude</li></ul>
+      <div class="meta"><div><span>Team size</span><b>1 – 2</b></div><div><span>Date</span><b>09/10/2026</b></div><div><span>Time</span><b>7:00 PM</b></div></div></div>
+    <div class="card round"><div class="no">ROUND 02</div><h3>Virtual Codeathon</h3>
+      <p>Team up and build something with cloud ideas. Completely virtual.</p>
+      <ul><li>Build a solution with cloud ideas</li><li>Work from anywhere and submit online</li></ul>
+      <div class="meta"><div><span>Team size</span><b>1 – 2</b></div><div><span>Submission date</span><b>11/10/2026</b></div><div><span>Submission time</span><b>6:30 PM</b></div></div></div>
+  </div>
+</div></section>
+
+<section class="s page" id="p-prizes"><div class="c">
+  <div class="eyebrow">Prizes</div>
+  <h2>What winners receive</h2>
+  <p class="lead">AWS merchandise for the top three teams.</p>
+  <img class="poster" alt="AWS Hackathon 2K26 winners prizes" src="assets/prizes-poster.jpg">
+  <div class="grid g3">
+    <div class="card prize p1"><div class="rk">Winner</div><h3>1st Prize</h3><ul><li>T-Shirt</li><li>Cap</li><li>24oz Owala Bottle</li><li>Belt Bag</li><li>Pencil Pouch</li></ul></div>
+    <div class="card prize"><div class="rk">Runner-up</div><h3>2nd Prize</h3><ul><li>T-Shirt</li><li>Cap</li><li>Belt Bag</li><li>24oz Owala Bottle</li></ul></div>
+    <div class="card prize"><div class="rk">Second runner-up</div><h3>3rd Prize</h3><ul><li>T-Shirt</li><li>Pencil Pouch</li><li>Notebook / Book</li></ul></div>
+  </div>
+  <div class="note"><b>Participation certificates</b> will be provided for all participants.</div>
+</div></section>
+
+<section class="s soft page" id="p-register"><div class="c">
+  <div class="eyebrow">Register</div>
+  <h2>Register your team</h2>
+  <p class="lead">Use the links below in this order: the two Meetup registrations, then the Google Form.</p>
+  <div class="trk" id="trk" role="status" aria-live="polite">
+    <div class="trk-head"><span class="trk-sp" aria-hidden="true"></span><b class="trk-t" id="trkT">Registration in progress</b><span class="trk-c" id="trkC">0 / 3 completed</span></div>
+    <div class="trk-bar" aria-hidden="true"><b></b><i></i></div>
+    <ol class="trk-steps">
+      <li data-k="m1"><span class="tk"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 12.5l4.2 4.2L18.5 7.5"/></svg></span><b>Meetup 1</b><small>Pending</small></li>
+      <li data-k="m2"><span class="tk"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 12.5l4.2 4.2L18.5 7.5"/></svg></span><b>Meetup 2</b><small>Pending</small></li>
+      <li data-k="f"><span class="tk"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 12.5l4.2 4.2L18.5 7.5"/></svg></span><b>Google Form</b><small>Pending</small></li>
+    </ol>
+    <div class="trk-done">
+      <p class="trk-tag">Your registration has been completed.</p>
+      <div class="trk-res"><span>Result</span><b>Registered</b></div>
+    </div>
+  </div>
+  <div class="grid g3">
+    <div class="card reg"><div style="font-size:12.5px;font-weight:700;letter-spacing:.1em;color:var(--mute);margin-bottom:4px">STEP 1 · FRI, 09 OCT · ONLINE</div><h3>Meetup Registration 1</h3><p>CODE-A-THON – I: a hands-on recap of core AWS services like EC2, S3 and Lambda. RSVP to receive the joining link.</p><a class="btn" href="https://www.meetup.com/aws-sbg-at-geethanjali-institute-of-science-and-technology/events/316876575/" target="_blank" rel="noopener">Register on Meetup &rarr;</a><button class="rchk" type="button" data-k="m1" aria-pressed="false"><span class="bx" aria-hidden="true"></span><span class="rt">Mark as done</span></button></div>
+    <div class="card reg"><div style="font-size:12.5px;font-weight:700;letter-spacing:.1em;color:var(--mute);margin-bottom:4px">STEP 2 · SUN, 11 OCT · ONLINE</div><h3>Meetup Registration 2</h3><p>CODED-DEPLOY – II: deploy an application on AWS and scale it, working hands-on with the team. RSVP to receive the joining link.</p><a class="btn" href="https://www.meetup.com/aws-sbg-at-geethanjali-institute-of-science-and-technology/events/316876832/" target="_blank" rel="noopener">Register on Meetup &rarr;</a><button class="rchk" type="button" data-k="m2" aria-pressed="false"><span class="bx" aria-hidden="true"></span><span class="rt">Mark as done</span></button></div>
+    <div class="card reg"><div style="font-size:12.5px;font-weight:700;letter-spacing:.1em;color:var(--mute);margin-bottom:4px">STEP 3 · TEAM REGISTRATION</div><h3>Google Form</h3><p>Fill it with your team's details. One submission per team of 1 to 2 members.</p><a class="btn off" id="formL" target="_blank" rel="noopener">Open registration form</a><button class="rchk" type="button" data-k="f" aria-pressed="false"><span class="bx" aria-hidden="true"></span><span class="rt">Mark as done</span></button></div>
+  </div>
+  <div class="must" role="note"><div class="mi">!</div><div><b>Important:</b> Your registration is considered complete <u>only when all three links above are filled</u> &mdash; Meetup Registration 1, Meetup Registration 2 and the Google Form. Incomplete registrations will not be accepted.</div></div>
+  <div class="share">Know someone who would be interested? <button class="btn ghost" id="shareBtm" style="padding:10px 20px">Share this page</button>
+    <a class="btn ghost guide" href="https://drive.google.com/file/d/14Y5GfBj9kR-v7orwxLL3e-SJe-YgXSOP/view?usp=drivesdk" target="_blank" rel="noopener noreferrer"><span class="gp" aria-hidden="true">&#9654;</span> New here? Watch the sign-up guide</a></div>
+</div></section>
+
+<section class="s page" id="p-rules" style="border-bottom:none"><div class="c">
+  <div class="eyebrow">Guidelines</div>
+  <h2>Rules &amp; FAQ</h2>
+  <p class="lead">Please read these before Round 1.</p>
+  <details open><summary><span><span class="flag">Rule</span>No AI tools during the quiz</span></summary><p>The quiz is online and strictly no-AI. Using ChatGPT, Claude or any AI tool is prohibited.</p></details>
+  <details open><summary><span><span class="flag">Rule</span>One writer per team</span></summary><p>Only one nominated roll number per team may attempt the quiz.</p></details>
+  <details open><summary><span><span class="flag">Rule</span>One attempt only</span></summary><p>If more than one member of a team attempts the quiz, the whole team is disqualified.</p></details>
+  <details><summary>Do I need AWS experience?</summary><p>No. The quiz is made for beginners.</p></details>
+  <details><summary>How big can a team be?</summary><p>Teams can have 1 or 2 members, for both rounds.</p></details>
+  <details><summary>Do all participants receive something?</summary><p>Yes. Participation certificates will be provided for all participants.</p></details>
+</div></section>
+
+<footer><div class="c"><div class="fl"><img alt="AWS" src="assets/aws-logo.png"></div><br><b>AWS Codeathon 2K26</b><br>Hosted and designed by Charan K and Sesi R · AWS Cloud Captain · GIST AWS Club</div></footer>
+
+<div class="bar"><div class="in"><span>AWS Codeathon 2K26<small>Quiz on 09 Oct · 7:00 PM</small></span><a class="btn" href="#register" id="barBtn">Register</a></div></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
